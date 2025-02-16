@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\server_mainloop.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D7A76C3F-59DD-3F09-AE97-14C4C508AF3B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

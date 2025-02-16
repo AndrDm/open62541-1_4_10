@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_highlevel.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_highlevel_async.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_subscriptions.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\common.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_accesscontrol.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_eventloop.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_log.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_nodestore.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_pki.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_securitypolicy.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\pubsub.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\server.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\statuscodes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_client_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_datatypes.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_pubsub_publish.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_pubsub_subscribe.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_alarms_conditions.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_datasource.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_events.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_firststeps.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_method.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_monitoreditems.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_object.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_variable.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_variabletype.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\types.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\types_generated.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\util.rst.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\16157dd581e6f2fe4ed060904f83fce0\doc_latex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc_latex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70CBD5D9-ABE0-3ECB-B666-3FC30A6BDC83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

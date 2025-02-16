@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_log_stdout.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_accesscontrol_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_nodestore_ziptree.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_nodestore_hashmap.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_config_default.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_config_json.c">
+      <Filter>plugins</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_data_backend_memory.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_data_gathering_default.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_database_default.c">
+      <Filter>plugins\historydata</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\securitypolicy_openssl_common.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic128rsa15.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic256.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic256sha256.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_aes128sha256rsaoaep.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_aes256sha256rsapss.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_create_certificate.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_pki_openssl.c">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\ua_pki_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\ua_securitypolicy_none.c">
+      <Filter>plugins\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\posix\ua_clock.c">
+      <Filter>arch\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\win32\ua_clock.c">
+      <Filter>arch\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\common\ua_timer.c">
+      <Filter>arch\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_common.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_select.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_epoll.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_tcp.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_udp.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_interrupt.c">
+      <Filter>arch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\securitypolicy_openssl_common.h">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_version_abstraction.h">
+      <Filter>plugins\crypto\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\src_generated\open62541\config.h">
+      <Filter>..\open62541-build32\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\src_generated\open62541\statuscodes.h">
+      <Filter>..\open62541-build32\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\src_generated\open62541\nodeids.h">
+      <Filter>..\open62541-build32\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\src_generated\open62541\types_generated.h">
+      <Filter>..\open62541-build32\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\src_generated\open62541\types_generated_handling.h">
+      <Filter>..\open62541-build32\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\historydatabase.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\CMakeFiles\a95a45cccb98cb3e9e0266eafde593ef\statuscodes.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\CMakeFiles\a95a45cccb98cb3e9e0266eafde593ef\nodeids.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{2A502145-9039-347D-81C5-87BDC3329296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build32">
+      <UniqueIdentifier>{03E698F2-DBA2-3942-A273-2B583FD7BD1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build32\src_generated">
+      <UniqueIdentifier>{C8A7EC99-190D-31E4-B1B1-3D896BB829BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build32\src_generated\open62541">
+      <UniqueIdentifier>{6DA585C2-8E7E-3E63-9D17-AA41C4C4A54B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EA5350E7-6024-3980-AE06-6CA1176207B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch">
+      <UniqueIdentifier>{59A2F4A1-BE94-39B8-9314-229CC7E0112A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\common">
+      <UniqueIdentifier>{85B09AD0-60D8-3534-AD2D-0AF9E8974AA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\posix">
+      <UniqueIdentifier>{51833C1F-CDA9-3902-B3B6-6E6DD5827572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\win32">
+      <UniqueIdentifier>{66CEE12E-4550-3523-9B3D-58D821438BED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{21E91ED7-E7A3-3B08-B894-781FC48EB92A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541">
+      <UniqueIdentifier>{0BD41190-C120-35F7-882E-81755CA22D6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541\plugin">
+      <UniqueIdentifier>{5E835517-080A-359D-91F9-9F9792BAE461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins">
+      <UniqueIdentifier>{B25D34C9-6A70-33C9-BD80-78D1E50F0162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\crypto">
+      <UniqueIdentifier>{B7AADB03-AB5A-3933-B3D3-4935851AE37E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\crypto\openssl">
+      <UniqueIdentifier>{120A2BEF-FFD2-3462-8645-09A07D663EA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="plugins\historydata">
+      <UniqueIdentifier>{58824247-0369-3758-8AE1-4305F2194847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9A7EF64-3D03-3F95-A3E6-6BCA18B52149}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>doc</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/client.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_highlevel.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/client_highlevel.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/client_highlevel.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/client_highlevel.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/client_highlevel.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_highlevel_async.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/client_highlevel_async.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel_async.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel_async.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/client_highlevel_async.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel_async.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel_async.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/client_highlevel_async.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel_async.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel_async.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/client_highlevel_async.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_highlevel_async.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_highlevel_async.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\client_subscriptions.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/client_subscriptions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_subscriptions.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_subscriptions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/client_subscriptions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_subscriptions.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_subscriptions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/client_subscriptions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_subscriptions.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_subscriptions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/client_subscriptions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/client_subscriptions.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/client_subscriptions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\common.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/common.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/common.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/common.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/common.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/common.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/common.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_accesscontrol.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/accesscontrol.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/accesscontrol.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/accesscontrol.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_accesscontrol.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/accesscontrol.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_accesscontrol.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_eventloop.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/eventloop.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/eventloop.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/eventloop.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_eventloop.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/eventloop.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_eventloop.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_log.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/log.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/log.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/log.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_log.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/log.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_log.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_nodestore.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/nodestore.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/nodestore.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/nodestore.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_nodestore.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/nodestore.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_nodestore.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_pki.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_pki.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/pki.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_pki.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_pki.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/pki.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_pki.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_pki.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/pki.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_pki.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_pki.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/pki.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_pki.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\plugin_securitypolicy.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/securitypolicy.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/securitypolicy.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/securitypolicy.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/plugin_securitypolicy.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/plugin/securitypolicy.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/plugin_securitypolicy.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\pubsub.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server_pubsub.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server_pubsub.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server_pubsub.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/pubsub.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server_pubsub.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/pubsub.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\server.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/server.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/server.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/server.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\statuscodes.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/statuscodes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/statuscodes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_client_firststeps.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_client_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_client_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_client_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_client_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_client_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_client_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_client_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_datatypes.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_datatypes.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_datatypes.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_datatypes.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_datatypes.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_datatypes.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_datatypes.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_datatypes.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_pubsub_publish.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_publish.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_publish.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_publish.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_pubsub_publish.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_publish.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_publish.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_publish.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_pubsub_subscribe.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_subscribe.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_subscribe.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_subscribe.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_pubsub_subscribe.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/pubsub/tutorial_pubsub_subscribe.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_pubsub_subscribe.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\pubsub\tutorial_pubsub_subscribe.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_alarms_conditions.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_alarms_conditions.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_alarms_conditions.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_alarms_conditions.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_alarms_conditions.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_alarms_conditions.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_alarms_conditions.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_alarms_conditions.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_datasource.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_datasource.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_datasource.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_datasource.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_datasource.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_datasource.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_datasource.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_datasource.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_events.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_events.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_events.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_events.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_events.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_events.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_events.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_events.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_firststeps.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_firststeps.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_firststeps.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_firststeps.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_firststeps.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_method.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_method.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_method.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_method.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_method.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_method.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_method.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_method.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_monitoreditems.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_monitoreditems.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_monitoreditems.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_monitoreditems.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_monitoreditems.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_monitoreditems.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_monitoreditems.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_monitoreditems.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_object.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_object.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_object.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_object.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_object.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_object.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_object.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_object.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_variable.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variable.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variable.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variable.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_variable.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variable.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variable.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variable.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\tutorial_server_variabletype.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variabletype.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variabletype.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variabletype.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/tutorial_server_variabletype.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/tutorial_server_variabletype.c C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/tutorial_server_variabletype.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\tutorial_server_variabletype.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\types.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/types.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/types.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/types.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/types.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/types.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/types.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\types_generated.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/types_generated.rst C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/types_generated.rst C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/types_generated.rst C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/types_generated.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/types_generated.rst C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.rst;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\a3e1e23f2a63aa0ca59f7d6b5c0caa97\util.rst.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/util.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/util.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/util.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../doc_src/util.rst</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/c2rst.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/include/open62541/util.h C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src/util.rst
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\c2rst.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\16157dd581e6f2fe4ed060904f83fce0\doc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building HTML documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b html C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\building.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\core_concepts.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\index.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler_pump.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541_html.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\toc.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorials.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark-pubsub.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building HTML documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b html C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\building.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\core_concepts.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\index.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler_pump.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541_html.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\toc.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorials.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark-pubsub.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building HTML documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b html C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\building.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\core_concepts.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\index.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler_pump.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541_html.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\toc.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorials.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark-pubsub.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building HTML documentation with Sphinx</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+SPHINX_EXECUTABLE-NOTFOUND -b html C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc_src C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types_generated.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\types.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\common.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\util.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\statuscodes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\server.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_subscriptions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\client_highlevel_async.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\pubsub.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_accesscontrol.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_log.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_nodestore.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_eventloop.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_pki.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin_securitypolicy.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_datatypes.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variable.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_variabletype.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_datasource.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_events.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_alarms_conditions.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_monitoreditems.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_object.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_server_method.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_client_firststeps.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_publish.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorial_pubsub_subscribe.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\building.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\core_concepts.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\index.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\nodeset_compiler_pump.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\open62541_html.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\plugin.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\toc.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\tutorials.rst;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark-pubsub.png;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc_src\ua-wireshark.png;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\conf.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\conf.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\conf.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\FindLATEX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\doc\conf.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageHandleStandardArgs.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindPackageMessage.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindSphinx.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\doc\CMakeFiles\doc">
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\ZERO_CHECK.vcxproj">
+      <Project>{56CCD73A-21A9-3FC1-8AB5-7D737C6BDEC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\open62541.vcxproj">
+      <Project>{8C8B272A-8984-3750-A197-C02617C6FF87}</Project>
+      <Name>open62541</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,22 @@
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION    1,4,10,1
+    PRODUCTVERSION 1,4,10,1
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName",        "AD Inc.\0"
+            VALUE "FileDescription",    "OPC UA DLL\0"
+            VALUE "FileVersion",        "1.4.10.1\0"
+            VALUE "LegalCopyright",     "©2025 Open62541&AD\0"
+            VALUE "OriginalFilename",   "open62541.dll\0"
+            VALUE "ProductName",        "Open62541 dll\0"
+            VALUE "ProductVersion",     "1.4.10.1\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1200
+    }
+}

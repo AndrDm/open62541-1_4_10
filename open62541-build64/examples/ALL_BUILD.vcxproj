@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DCBE2805-60B7-3C70-ABA1-970D62CAE698}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\ZERO_CHECK.vcxproj">
+      <Project>{56CCD73A-21A9-3FC1-8AB5-7D737C6BDEC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\access_control_client.vcxproj">
+      <Project>{4201BD6E-EF66-3348-921D-E717C7C5841F}</Project>
+      <Name>access_control_client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\access_control_client_encrypt.vcxproj">
+      <Project>{A9E8B4A3-BD30-36DE-A4B3-96C5CBA0DB3C}</Project>
+      <Name>access_control_client_encrypt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\access_control_server.vcxproj">
+      <Project>{CD7301FB-2762-37AE-B2E1-3E78C204B0AE}</Project>
+      <Name>access_control_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\ci_server.vcxproj">
+      <Project>{B3080D1A-59BA-3FF0-AB2F-12BAC99C8D43}</Project>
+      <Name>ci_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client.vcxproj">
+      <Project>{849B8FF8-A187-3B62-84A5-FB777D078309}</Project>
+      <Name>client</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_async.vcxproj">
+      <Project>{AFE86352-D777-32E8-BD74-A4DC9328C5CB}</Project>
+      <Name>client_async</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_connect.vcxproj">
+      <Project>{C76DFA68-E341-3B1D-8A51-5979DCF58094}</Project>
+      <Name>client_connect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_connect_loop.vcxproj">
+      <Project>{4E1C492A-AEFA-3D42-89B1-59763175EEC5}</Project>
+      <Name>client_connect_loop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_encryption.vcxproj">
+      <Project>{FC79ADA3-7D0F-394C-B719-7F3BA56AE8F8}</Project>
+      <Name>client_encryption</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_event_filter.vcxproj">
+      <Project>{B3842BF2-48CE-3F9C-A509-61C1E7D82070}</Project>
+      <Name>client_event_filter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_historical.vcxproj">
+      <Project>{EA6D60D6-00A5-39B5-B223-ACC32B753BB4}</Project>
+      <Name>client_historical</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_method_async.vcxproj">
+      <Project>{4FC608EF-ED6E-32AB-924C-D1A4FB1916FC}</Project>
+      <Name>client_method_async</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\client_subscription_loop.vcxproj">
+      <Project>{D7D22BD9-3199-3744-8276-999A94593A15}</Project>
+      <Name>client_subscription_loop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_encryption.vcxproj">
+      <Project>{44FA1E92-44B1-30E4-B682-EE19E44BB269}</Project>
+      <Name>server_encryption</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_events_random.vcxproj">
+      <Project>{C8FCE727-83DB-330E-87DA-1D161E04735E}</Project>
+      <Name>server_events_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_file_based_config.vcxproj">
+      <Project>{224D3DD8-99D1-39BA-B58F-CE6A3069772C}</Project>
+      <Name>server_file_based_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_inheritance.vcxproj">
+      <Project>{93A3CF4C-D5A2-3E07-ADCA-82063A052B72}</Project>
+      <Name>server_inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_instantiation.vcxproj">
+      <Project>{18020DFB-71CA-3EA6-A15F-A725BF8571D2}</Project>
+      <Name>server_instantiation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_loglevel.vcxproj">
+      <Project>{6C7F9148-A14B-3899-89E6-24C198384DC6}</Project>
+      <Name>server_loglevel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_mainloop.vcxproj">
+      <Project>{2EAAD4AE-F179-3276-948D-DDBF1F71C0D4}</Project>
+      <Name>server_mainloop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\nodeset\server_nodeset.vcxproj">
+      <Project>{F635EC30-C303-3587-A312-63E9120AD371}</Project>
+      <Name>server_nodeset</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_pubsub_publish_on_demand.vcxproj">
+      <Project>{6AB81CEF-800A-37BA-816A-FA86D28CF7B7}</Project>
+      <Name>server_pubsub_publish_on_demand</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_pubsub_publisher_iop.vcxproj">
+      <Project>{F4536F21-FE2D-3D68-ABDE-C62934348C59}</Project>
+      <Name>server_pubsub_publisher_iop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_repeated_job.vcxproj">
+      <Project>{62A136D7-8E08-3C64-94E8-DFC790ACF2E4}</Project>
+      <Name>server_repeated_job</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\server_settimestamp.vcxproj">
+      <Project>{E0184B9D-95A0-38E9-9686-A77E2AEC0537}</Project>
+      <Name>server_settimestamp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_client_events.vcxproj">
+      <Project>{6384FE58-1326-347B-BF4C-057C05DE641E}</Project>
+      <Name>tutorial_client_events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_client_firststeps.vcxproj">
+      <Project>{4E68CB25-77A3-3688-88AC-8F720C90ECC3}</Project>
+      <Name>tutorial_client_firststeps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_datatypes.vcxproj">
+      <Project>{121348B2-133E-38D1-AAE5-DA791F5919E1}</Project>
+      <Name>tutorial_datatypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_pubsub_connection.vcxproj">
+      <Project>{7D045B04-02CD-3D51-95F9-DF2CA05B638D}</Project>
+      <Name>tutorial_pubsub_connection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_pubsub_publish.vcxproj">
+      <Project>{229E2341-206C-398E-9B46-40C5C22CFE60}</Project>
+      <Name>tutorial_pubsub_publish</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_pubsub_subscribe.vcxproj">
+      <Project>{8C0FB41A-2041-388E-AAD2-0BBE981D88B6}</Project>
+      <Name>tutorial_pubsub_subscribe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_datasource.vcxproj">
+      <Project>{E62B6869-A529-3C44-8DBF-FE7D68662E2D}</Project>
+      <Name>tutorial_server_datasource</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_events.vcxproj">
+      <Project>{F936BF58-AB85-3449-BCA0-98838048D059}</Project>
+      <Name>tutorial_server_events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_firststeps.vcxproj">
+      <Project>{E08C02E1-6973-39C0-B9CB-AABAAD7A54DD}</Project>
+      <Name>tutorial_server_firststeps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_historicaldata.vcxproj">
+      <Project>{9D2845FC-5C01-34DE-80D8-44AC5EA0B556}</Project>
+      <Name>tutorial_server_historicaldata</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_historicaldata_circular.vcxproj">
+      <Project>{B13E9C48-ABC4-305D-895B-3620C3F073E8}</Project>
+      <Name>tutorial_server_historicaldata_circular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_method.vcxproj">
+      <Project>{21C3970D-5F60-3074-93EC-1621D8E427C3}</Project>
+      <Name>tutorial_server_method</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_method_async.vcxproj">
+      <Project>{674DC1F7-20C1-3989-8B77-10036FF42756}</Project>
+      <Name>tutorial_server_method_async</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_monitoreditems.vcxproj">
+      <Project>{C5A4020D-6FDD-30EA-BDB5-8EECB9C6D2CE}</Project>
+      <Name>tutorial_server_monitoreditems</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_object.vcxproj">
+      <Project>{676C8C46-D7CA-335B-87C3-D33E883B4088}</Project>
+      <Name>tutorial_server_object</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_reverseconnect.vcxproj">
+      <Project>{FF978261-9206-3405-A6DD-786EC652BAD5}</Project>
+      <Name>tutorial_server_reverseconnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_variable.vcxproj">
+      <Project>{5AC0A948-96A8-36A9-99D9-63B845766ABF}</Project>
+      <Name>tutorial_server_variable</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\tutorial_server_variabletype.vcxproj">
+      <Project>{080DC15D-8B90-30E9-B380-0A1C23E10A3D}</Project>
+      <Name>tutorial_server_variabletype</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

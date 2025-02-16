@@ -1,0 +1,38 @@
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD64\CMAKEFILES\CD895B3287A1ABB66A4698A994BCD656\NODEIDS.H.RULE
+setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/NodeIds.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD64\CMAKEFILES\CD895B3287A1ABB66A4698A994BCD656\STATUSCODES.H.RULE
+setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_statuscode_descriptions.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/StatusCode.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD64\CMAKEFILES\F74AC8C7F40F64E523B6861A592CB4F8\OPEN62541-GENERATOR-STATUSCODE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

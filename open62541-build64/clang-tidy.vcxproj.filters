@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\f74ac8c7f40f64e523b6861a592cb4f8\clang-tidy.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\clang-tidy" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70CBD5D9-ABE0-3ECB-B666-3FC30A6BDC83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

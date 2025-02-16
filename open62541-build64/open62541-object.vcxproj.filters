@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types_encoding_binary.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.c">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\transport_generated.c">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.c">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_util.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_securechannel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_securechannel_crypto.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_nodes.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_ns0.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_ns0_diagnostics.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_config.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_binary.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_utils.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_async.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_view.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_method.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_session.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_attribute.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_monitoreditem.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_securechannel.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services_nodemanagement.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_networkmessage.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_eventloop.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_connection.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_dataset.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_writer.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_writergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_reader.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_readergroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_manager.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_ns0.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_keystorage.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_securitygroup.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_config.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client_connect.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client_discovery.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client_highlevel.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client_subscriptions.c">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\libc_time.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\pcg_basic.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\base64.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\dtoa.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\mp_printf.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\itoa.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\ziptree.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\namespace0_generated.c">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types_lex.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_networkmessage_json.c">
+      <Filter>src\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\cj5.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\parse_num.c">
+      <Filter>deps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types_encoding_json.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription_monitoreditem.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription_datachange.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription_events.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription_events_filter.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_discovery.c">
+      <Filter>src\server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\win32\ua_architecture.h">
+      <Filter>arch\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\posix\ua_architecture.h">
+      <Filter>arch\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\open62541_queue.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\pcg_basic.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\libc_time.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\base64.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\dtoa.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\mp_printf.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\itoa.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\ziptree.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types_encoding_binary.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_util_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\transport_generated.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\transport_generated_handling.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_securechannel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_session.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_subscription.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_networkmessage.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_ns0.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub\ua_pubsub_keystorage.h">
+      <Filter>src\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_async.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_server_internal.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_services.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\client\ua_client_internal.h">
+      <Filter>src\client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\namespace0_generated.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\cj5.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps\parse_num.h">
+      <Filter>deps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\ua_types_encoding_json.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\server\ua_discovery.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\config.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated_handling.h">
+      <Filter>..\open62541-build64\src_generated\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\historydatabase.h">
+      <Filter>include\open62541\plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h">
+      <Filter>include\open62541</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{5D1E4B51-1908-30D8-A281-0DE3625ED1E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build64">
+      <UniqueIdentifier>{E19F1169-9031-3AF8-B274-9F2BE1A4F3EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build64\src_generated">
+      <UniqueIdentifier>{5FA7A1C5-FD77-343F-9FED-2C5AE583C59C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\open62541-build64\src_generated\open62541">
+      <UniqueIdentifier>{66967657-5BED-3F49-A7FC-1E79B3DD19E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70CBD5D9-ABE0-3ECB-B666-3FC30A6BDC83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch">
+      <UniqueIdentifier>{2C73F384-2D3D-31EC-8801-4F4CC6DA185B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\posix">
+      <UniqueIdentifier>{302EF5EC-3B8F-3FAA-BB33-42FD87923D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arch\win32">
+      <UniqueIdentifier>{BB3E60C0-625D-3967-A05B-40A81CADB66E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="deps">
+      <UniqueIdentifier>{40EF0499-DA3D-3C3B-A5AF-13B79E7D9310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{FDA41DF0-A80C-3AA2-93C7-DF5B77E233A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541">
+      <UniqueIdentifier>{12D4E851-CD1A-3EDB-9754-23E4B15167C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\open62541\plugin">
+      <UniqueIdentifier>{8F51DE38-DEEC-3F9B-87E6-696424D32227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{632EDCF0-B5CE-3ED1-ACFF-038FED2788C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{B63D742A-A652-3633-BAB6-539C0497361B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pubsub">
+      <UniqueIdentifier>{5CAC776A-448B-3209-BA0B-7F1DE470D4B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{051F2092-FC2A-3B74-BCCA-1D67EF426C83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

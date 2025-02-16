@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\open62541-generator-types</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\open62541-generator-namespace</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\open62541-generator-statuscode</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\open62541-generator-transport</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\x64\Release\open62541-code-generation</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\bin\Release\open62541.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\bin\examples\tutorial_datatypes.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

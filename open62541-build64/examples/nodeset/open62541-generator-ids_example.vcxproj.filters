@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\cd895b3287a1abb66a4698a994bcd656\example_nodeids.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\670dd0dd6dab7ddf6b3565766bf1a6f2\open62541-generator-ids_example.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\examples\nodeset\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\examples\nodeset\CMakeFiles\open62541-generator-ids_example" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{70CBD5D9-ABE0-3ECB-B666-3FC30A6BDC83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

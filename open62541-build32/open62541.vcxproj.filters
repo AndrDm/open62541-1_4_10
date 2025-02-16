@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_types.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_types_encoding_binary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\types_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\transport_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\statuscodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_securechannel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_securechannel_crypto.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_session.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_nodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_ns0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_ns0_diagnostics.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_binary.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_utils.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_server_async.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_view.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_method.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_session.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_attribute.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_subscription.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_monitoreditem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_securechannel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_services_nodemanagement.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_eventloop.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_connection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_dataset.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_writer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_writergroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_readergroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_manager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_ns0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_keystorage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_securitygroup.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_client_connect.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_client_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_client_highlevel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_client_subscriptions.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\libc_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\pcg_basic.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\dtoa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\mp_printf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\itoa.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ziptree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\namespace0_generated.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_types_lex.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_pubsub_networkmessage_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\cj5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\parse_num.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_types_encoding_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_subscription.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_subscription_monitoreditem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_subscription_datachange.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_subscription_events.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_subscription_events_filter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-object.dir\$(Configuration)\ua_discovery.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_log_stdout.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_accesscontrol_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_nodestore_ziptree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_nodestore_hashmap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_config_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_config_json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_history_data_backend_memory.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_history_data_gathering_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_history_database_default.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\securitypolicy_openssl_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_basic128rsa15.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_basic256.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_basic256sha256.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_aes128sha256rsaoaep.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_aes256sha256rsapss.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_openssl_create_certificate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_pki_openssl.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_pki_none.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_securitypolicy_none.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\arch\posix\ua_clock.c.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\arch\win32\ua_clock.c.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\ua_timer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_common.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix_select.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix_epoll.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix_tcp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix_udp.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build32\open62541-plugins.dir\$(Configuration)\eventloop_posix_interrupt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D6C63D4D-7C04-328B-85B8-A127A5F53234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4412EE45-2B04-39C7-8347-7AE4C3F64923}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>open62541-plugins</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open62541-plugins.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open62541-plugins.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">open62541-plugins</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open62541-plugins.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open62541-plugins.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">open62541-plugins</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open62541-plugins.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open62541-plugins.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">open62541-plugins</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open62541-plugins.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open62541-plugins.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">open62541-plugins</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /w44996</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UA_DYNAMIC_LINKING_EXPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\include;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\deps;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\src\pubsub;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\cd895b3287a1abb66a4698a994bcd656\statuscodes.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src_generated/open62541/statuscodes.h, src_generated/open62541/statuscodes.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_statuscode_descriptions.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/StatusCode.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_statuscode_descriptions.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\StatusCode.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src_generated/open62541/statuscodes.h, src_generated/open62541/statuscodes.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_statuscode_descriptions.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/StatusCode.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_statuscode_descriptions.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\StatusCode.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src_generated/open62541/statuscodes.h, src_generated/open62541/statuscodes.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_statuscode_descriptions.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/StatusCode.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_statuscode_descriptions.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\StatusCode.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src_generated/open62541/statuscodes.h, src_generated/open62541/statuscodes.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_statuscode_descriptions.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/StatusCode.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/statuscodes
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_statuscode_descriptions.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\StatusCode.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\cd895b3287a1abb66a4698a994bcd656\nodeids.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src_generated/open62541/nodeids.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/NodeIds.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_nodeid_header.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\NodeIds.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src_generated/open62541/nodeids.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/NodeIds.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_nodeid_header.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\NodeIds.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src_generated/open62541/nodeids.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/NodeIds.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_nodeid_header.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\NodeIds.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src_generated/open62541/nodeids.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/schema/NodeIds.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/nodeids NS0
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\generate_nodeid_header.py;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\schema\NodeIds.csv;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\config.h.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\AssignSourceGroup.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindClangTools.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\SetGitBasedVersion.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_build.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_target.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Config.cmake.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Macros.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\config.h.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\AssignSourceGroup.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindClangTools.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\SetGitBasedVersion.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_build.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_target.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Config.cmake.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Macros.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\config.h.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\AssignSourceGroup.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindClangTools.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\SetGitBasedVersion.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_build.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_target.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Config.cmake.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Macros.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineCompilerSupport.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CrayClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\LCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\OrangeC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TIClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.31\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\FindPython3.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeDetermineLinkerId.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeRCCompiler.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\3.31.5\CMakeSystem.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\config.h.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\AssignSourceGroup.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\FindClangTools.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\SetGitBasedVersion.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_build.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\linting_target.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Config.cmake.in;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\cmake\open62541Macros.cmake;C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\tools\open62541.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_log_stdout.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_accesscontrol_default.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_nodestore_ziptree.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_nodestore_hashmap.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_config_default.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\ua_config_json.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_data_backend_memory.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_data_gathering_default.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\historydata\ua_history_database_default.c" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\securitypolicy_openssl_common.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_version_abstraction.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\securitypolicy_openssl_common.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic128rsa15.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic256.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_basic256sha256.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_aes128sha256rsaoaep.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_aes256sha256rsapss.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_openssl_create_certificate.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\openssl\ua_pki_openssl.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\ua_pki_none.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\plugins\crypto\ua_securitypolicy_none.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\posix\ua_clock.c">
+      <ObjectFileName>$(IntDir)/arch/posix/ua_clock.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\win32\ua_clock.c">
+      <ObjectFileName>$(IntDir)/arch/win32/ua_clock.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\common\ua_timer.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_common.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_select.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_epoll.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_tcp.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_udp.c" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\arch\eventloop_posix_interrupt.c" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\config.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\statuscodes.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\nodeids.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\common.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\types.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\src_generated\open62541\types_generated_handling.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\util.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\log.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\accesscontrol.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\pki.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\securitypolicy.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\eventloop.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\nodestore.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\plugin\historydatabase.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server_pubsub.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\server.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_subscriptions.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541\include\open62541\client_highlevel_async.h" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\ZERO_CHECK.vcxproj">
+      <Project>{56CCD73A-21A9-3FC1-8AB5-7D737C6BDEC9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\open62541-generator-namespace.vcxproj">
+      <Project>{B65B519F-2B31-3615-ABB5-FD5347217424}</Project>
+      <Name>open62541-generator-namespace</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\open62541-generator-transport.vcxproj">
+      <Project>{58864FDD-1C07-3EE6-A03D-6B98D2103510}</Project>
+      <Name>open62541-generator-transport</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\open62541-1_4_10\open62541-build64\open62541-generator-types.vcxproj">
+      <Project>{2D9B2C6C-A63B-384B-9600-FDBF12A960A9}</Project>
+      <Name>open62541-generator-types</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

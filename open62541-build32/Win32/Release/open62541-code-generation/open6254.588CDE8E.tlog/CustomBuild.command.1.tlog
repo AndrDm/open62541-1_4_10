@@ -1,0 +1,18 @@
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD32\CMAKEFILES\CA9C26B3ED8E47708A140FCAF09293A6\OPEN62541-CODE-GENERATION.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build32 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,28 @@
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD64\CMAKEFILES\CD895B3287A1ABB66A4698A994BCD656\EXAMPLE_NODEIDS.H.RULE
+setlocal
+"C:\Program Files\Python313\python.exe" C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/tools/generate_nodeid_header.py C:/Users/Andrey/Desktop/open62541-1_4_10/open62541/examples/nodeset/server_nodeset.csv C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/src_generated/open62541/example_nodeids EXAMPLE_NS
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541-BUILD64\CMAKEFILES\670DD0DD6DAB7DDF6B3565766BF1A6F2\OPEN62541-GENERATOR-IDS_EXAMPLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANDREY\DESKTOP\OPEN62541-1_4_10\OPEN62541\EXAMPLES\NODESET\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/open62541-1_4_10/open62541 -BC:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64 --check-stamp-file C:/Users/Andrey/Desktop/open62541-1_4_10/open62541-build64/examples/nodeset/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
